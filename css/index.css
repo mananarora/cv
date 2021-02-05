@@ -1,0 +1,19 @@
+.dp {
+  width: 250px;
+  height: auto;
+}
+table {
+  border: 1px;
+  border-style: solid;
+  border-width: 1px 2px 3px 4px;
+  border-collapse: collapse;/* if collapse not used then border-bottom won't work */
+}
+.experience thead tr:first-child {
+  border-bottom: solid 2px blue;
+}
+.experience thead td:first-child  {
+  border-right: solid 2px green;
+}
+.experience tbody td:first-child  {
+  border-right: solid 2px pink;
+}
